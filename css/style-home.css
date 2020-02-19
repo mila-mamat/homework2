@@ -1,0 +1,198 @@
+/* general settings */
+  *, ::after, ::before {
+    box-sizing: border-box;
+  }
+
+  html {
+    height:100%;
+    width:100%;
+    margin:0px;
+    zoom: 1;
+  }
+
+  body {
+    height:100%;
+    width:100%;
+    background-color:black;  /* overlay with the background img */
+    color:white;
+  }
+
+  /* background img should take up the whole window  */
+  #background-img {
+    height:100%;
+    width:100%;
+    opacity:0.8;
+    position:absolute;
+  }
+
+  .container-fluid{
+    padding:0px;
+  }
+
+
+/* header */
+  /* navbar display */
+    #navbar {
+      margin: 0px;
+      padding:2px 30px;
+    }
+
+    #navbar:hover{
+      background-color:#F0F6F7FF;
+      position:relative;
+    }
+
+
+  /* navbar menu on the left side  */
+    #menu-btn {
+      background-color:transparent ;
+      padding:0px;
+      border: none;
+    }
+
+    .dropright .dropdown-toggle::after{
+      border-left:none !important;
+    }
+
+    #menu-icon {
+      height:50px;
+      width:60px;
+      margin-left:5px;
+      margin-top:0px;
+    }
+
+    #navbar:hover .dropdown-menu{
+    display:block;
+    }
+
+    .dropdown-menu {
+      margin-left:5px;
+      min-width:450px;
+      border:none;
+      background-color: transparent;
+      padding:0px;
+    }
+
+    .dropdown-item {
+      display:inline-block !important;
+      width:auto;
+      font-size:18px;
+      font-weight:bold;
+      padding:9px 20px;
+    }
+
+    .dropdown-item:hover {
+      background-color: transparent;
+      color:#ff6d00;
+    }
+
+
+  /* contact icon  */
+    #contact-icon .icon {
+      margin-top:10px;
+      margin-left:10px;
+      height:32px;
+      width:32px;
+      float:right;
+    }
+
+
+    /* responsive design for navbar */
+    @media screen and (max-width:768px) {
+      #navbar {
+        padding:2px 10px;
+      }
+      
+      #contact-icon {
+        display:none;
+      }
+
+      .dropdown-item {
+        font-size: 16px;
+      }
+    }
+
+    @media screen and (max-width:576px){
+      #menu-btn {
+        display:none;
+      }
+
+      .dropdown-menu {
+        display:block;
+      }
+
+      #navbar:hover{
+        background-color:transparent;
+      }
+      .dropdown-item {
+        font-size: 16px;
+        padding:5px 5px;
+        color:white;
+      }
+
+      .dropdown-item:hover {
+        color:#ff6d00;
+      }
+    }
+
+
+
+/* main content */
+  main {
+    position:relative;
+    text-align:center;
+
+  }
+
+  .align-self-center {
+    margin:auto;
+  }
+
+  main h1 {
+    font-size: 6em;
+    font-weight: 750;
+  }
+  main h2 {
+    font-size:2em;
+  }
+
+  .greeting {
+    margin-top:10%;
+  }
+
+  #intro {
+    margin:15px 15%;
+    font-weight: lighter;
+    font-family: 'Sriracha', cursive,Times, 'Times New Roman', serif
+    
+  }
+
+  span.highlight-font {
+    color: #ff6d00;
+  }
+
+  #intro:hover {
+    background-color: rgb(75,77,78,0.7);
+    font-size: 1.1em;
+  }
+  p img {
+    height:1.1em;
+    width:1.1em;
+  }
+
+  /* resizing main content for diffrent screens */
+    @media screen and (max-width:768px) {
+      main h1 {
+        font-size: 4em;
+        font-weight: 750;
+      }
+      main h2 {
+        font-size:1.5em;
+      }
+    }
+
+    @media screen and (max-width:576px){
+      .greeting {
+        margin-top:15%;
+      }
+    }
