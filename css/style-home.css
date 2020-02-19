@@ -13,8 +13,8 @@
   body {
     height:100%;
     width:100%;
-    background-color:black;  /* overlay with the background img */
-    color:white;
+    background-color:rgb(250,250,253);  /* overlay with the background img */
+    color:black;
   }
 
   /* background img should take up the whole window  */
@@ -38,7 +38,7 @@
     }
 
     #navbar:hover{
-      background-color:#F0F6F7FF;
+      background-color:rgb(250,250,253);
       position:relative;
     }
 
@@ -83,7 +83,7 @@
 
     .dropdown-item:hover {
       background-color: transparent;
-      color:#ff6d00;
+      color:#D44638;
     }
 
 
@@ -127,16 +127,15 @@
       .dropdown-item {
         font-size: 16px;
         padding:5px 5px;
-        color:white;
       }
 
       .dropdown-item:hover {
-        color:#ff6d00;
+        color:#D44638;
       }
 
-      #background-img {
+      /* #background-img {
         opacity:0.4;
-      }
+      } */
     }
 
 
@@ -161,24 +160,25 @@
   }
 
   .greeting {
-    margin-top:10%;
+    margin-top:13%;
+  }
+
+  span.highlight-font {
+    color: #D44638;
   }
 
   #intro {
     margin:15px 15%;
+    font-size: 0.8em;
     font-weight: lighter;
-    font-family: 'Sriracha', cursive,Times, 'Times New Roman', serif
-    
-  }
-
-  span.highlight-font {
-    color: #ff6d00;
+    font-family: 'Sriracha', cursive,Times, 'Times New Roman', serif;
   }
 
   #intro:hover {
-    background-color: rgb(75,77,78,0.7);
-    font-size: 1.1em;
+    font-size: 1.2em;
+    background-color: rgb(250,250,253,0.3);
   }
+
   p img {
     height:1.1em;
     width:1.1em;
@@ -187,24 +187,29 @@
   /* resizing main content for diffrent screens */
     @media screen and (max-width:768px) {
       main h1 {
-        font-size: 4em;
+        font-size: 5em;
         font-weight: 750;
       }
-      main h2 {
-        font-size:1.5em;
-      }
+     
     }
 
     @media screen and (max-width:576px){
 
       .greeting {
-        margin-top:30%;
+        margin-top:25%;
       }
 
       #intro {
-        margin:20px 0;
-        background-color:rgb(75,77,78);
+        margin:30px;
+        font-size: 16px;
+        background-color:rgb(250,250,253,0.3);
         pointer-events: none;
       }
+    }
 
+    /* footer: background img attibution */
+    footer{
+      position:absolute;
+      bottom:0;
+      right:0;
     }
