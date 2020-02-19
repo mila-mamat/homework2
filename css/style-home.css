@@ -133,6 +133,10 @@
       .dropdown-item:hover {
         color:#ff6d00;
       }
+
+      #background-img {
+        opacity:0.4;
+      }
     }
 
 
@@ -192,7 +196,15 @@
     }
 
     @media screen and (max-width:576px){
+
       .greeting {
-        margin-top:15%;
+        margin-top:30%;
       }
+
+      #intro {
+        margin:20px 0;
+        background-color:rgb(75,77,78);
+        pointer-events: none;
+      }
+
     }
