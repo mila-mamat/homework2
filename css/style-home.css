@@ -198,20 +198,20 @@
 
     @media screen and (max-width:576px){
       .greeting {
-        margin-top:30%;
+        margin-top:35%;
       }
       #intro {
-        margin:30px ;
+        margin:30px 20px 0px;
         font-size: 16px;
-        background-color:rgb(250,250,253,0.3);
         pointer-events: none;
+        text-align: justify;
       }
 
       main h1 {
         font-size: 4em;
       }
       main h2 {
-        font-size: 1.5em;
+        font-size: 1.2em;
       }
     }
 
