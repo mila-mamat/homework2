@@ -198,7 +198,7 @@
 
     @media screen and (max-width:576px){
       .greeting {
-        margin-top:20%;
+        margin-top:30%;
       }
       #intro {
         margin:30px ;
@@ -208,7 +208,7 @@
       }
 
       main h1 {
-        font-size: 3em;
+        font-size: 4em;
       }
       main h2 {
         font-size: 1.5em;
