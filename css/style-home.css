@@ -1,5 +1,5 @@
 /* general settings */
-  *, ::after, ::before {
+*, ::after, ::before {
     box-sizing: border-box;
   }
 
@@ -13,7 +13,7 @@
   body {
     height:100%;
     width:100%;
-    background-color:rgb(250,250,253);  /* overlay with the background img */
+    background-color:white;  /* overlay with the background img */
     color:#28334AFF;
    
   }
@@ -22,123 +22,107 @@
   #background-img {
     height:100%;
     width:100%;
-    opacity:0.8;
+    opacity:0.2;
     position:absolute;
   }
 
   .container-fluid{
     padding:0px;
   }
+/* end of general style  */
 
 
-/* header */
-  /* navbar display */
-    #navbar {
-      margin: 0px;
-      padding:5px 30px;
-    }
-
-    #navbar:hover{
-      background-color:rgb(250,250,253);
-      position:relative;
-    }
+/* navbar  */
+  .navbar {
+    padding: 5px 45px;
+    font-weight: bold;
+    background-color: transparent!important;
+  }
 
 
-  /* navbar menu on the left side  */
-    #menu-btn {
-      background-color:transparent ;
-      padding:0px;
-      border: none;
-    }
 
-    .dropright .dropdown-toggle::after{
-      border-left:none !important;
-    }
 
-    #menu-icon {
-      height:50px;
+
+  /* would like to add hover effect, but cant remove it for small screen */
+  #navbarTogglerDemo03 {
+    display:none !important;
+  }
+
+  .navbar:hover #navbarTogglerDemo03 {
+    display:flex !important;
+  }
+
+
+
+
+
+
+  .navbar-brand{
+      padding:0px
+  }
+
+  .navbar-brand img {
       width:60px;
-      margin-left:5px;
-      margin-top:0px;
+      height:50px;
+  }
+
+  #contact-icon {
+    margin:0px !important;
+    padding:0px;
+  }
+
+  .navbar-light .navbar-toggler-icon {
+    background-image: url("../pics/html-coding-5.png");
+    padding:0px;
+    font-size: 1.5rem;
+  }
+
+  .navbar-light .navbar-toggler {
+    border:none;
+    padding:0px;
+  }
+
+  .nav-link {
+    padding:8px 15px;
+  }
+
+  #navbarTogglerDemo03 ul{
+    margin-top:0 !important;
+  }
+
+  .navbar-nav .nav-link:hover{
+    color:#D44638 !important;
+  }
+
+  .contact-icon {
+    margin-top:10px;
+    margin-left:10px;
+    height:32px;
+    width:32px;
+    float:right !important;
+  }
+
+
+  /* conatct icons will disapear in small screens as we have conatct me page anyway */
+  @media screen and (max-width:767px) {
+    #contact-icon {
+      display:none;
+    }
+  
+    #navbarTogglerDemo03 {
+      pointer-events: none !important;
     }
 
-    #navbar:hover .dropdown-menu{
-    display:block;
+    .navbar-brand img {
+      width:50px;
+      height:40px;
     }
+    .navbar-brand img {
+      display:none
 
-    .dropdown-menu {
-      margin-left:5px;
-      min-width:450px;
-      border:none;
-      background-color: transparent;
-      padding:0px;
     }
-
-    .dropdown-item {
-      display:inline-block !important;
-      width:auto;
-      font-size:16px;
-      font-weight:bold;
-      padding:9px 15px;
-    }
-
-    .dropdown-item:hover {
-      background-color: transparent;
-      color:#D44638;
-    }
-
-
-  /* contact icon  */
-    #contact-icon .icon {
-      margin-top:10px;
-      margin-left:10px;
-      height:32px;
-      width:32px;
-      float:right;
-    }
-
-
-    /* responsive design for navbar */
-    @media screen and (max-width:768px) {
-      #navbar {
-        padding:2px 10px;
-      }
-      
-      #contact-icon {
-        display:none;
-      }
-
-      .dropdown-item {
-        font-size: 16px;
-      }
-    }
-
-    @media screen and (max-width:576px){
-      #menu-btn {
-        display:none;
-      }
-
-      .dropdown-menu {
-        display: block;
-        min-width:none;
-      }
-
-      #navbar:hover{
-        background-color:transparent;
-      }
-      .dropdown-item {
-        padding:5px 5px;
-        display:inline-block;
-      }
-
-      .dropdown-item:hover {
-        color:#D44638;
-      }
-
-      /* #background-img {
-        opacity:0.4;
-      } */
-    }
+  }
+/* end of navbar style  */
 
 
 
@@ -146,7 +130,6 @@
   main {
     position:relative;
     text-align:center;
-
   }
 
   .align-self-center {
@@ -213,10 +196,12 @@
         font-size: 1.2em;
       }
     }
+/* end of main content style  */
+  
 
-    /* footer: background img attibution */
-    footer{
-      position:absolute;
-      bottom:5px;
-      right:5px;
-    }
+/* footer: background img attibution */
+  footer{
+    position:absolute;
+    bottom:5px;
+    right:5px;
+  }
