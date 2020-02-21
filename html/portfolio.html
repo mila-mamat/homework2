@@ -8,33 +8,34 @@
     <!-- bootstrap and google font -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/ulg/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/ulg/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="stylesheet">
     <link rel='stylesheet' type='text/css' media='screen' href='../css/style-portfolio.css'>
 </head>
 
 <body>
+  <!-- navigation bar -->
   <nav class="navbar sticky-top navbar-expand-md navbar-light bg-light">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon">
     </button>
     <a class="navbar-brand" href="#"><img class="icon" id="menu-icon" src="../pics/html-coding-5.png" alt="Icons made by <a href='https://www.flaticon.com/authors/freepik' title='Freepik'>Freepik</a> from <a href='https://www.flaticon.com/'  "></a>
-  
+    <!-- naviagtion menu, will collapse into toggeler in small screen  -->
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="https://mila-mamat.github.io/homework2/html/index">Home Page</a>
+          <a class="nav-link" href="https://mila-mamat.github.io/homework2/html/index.html">Home Page</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="https://mila-mamat.github.io/homework2/html/portfolio">Protfolio <span class="sr-only">(current)</a>
+          <a class="nav-link" href="https://mila-mamat.github.io/homework2/html/portfolio.html">Protfolio <span class="sr-only">(current)</a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link" href="#">Contact Me</a>
+          <a class="nav-link" href="https://mila-mamat.github.io/homework2/html/contact.html">Contact Me</a>
         </li>
       </ul>
-
+      <!-- contact icons on the right, hidden in small screens  -->
       <form id="contact-icon" class="form-inline my-2 my-lg-0">
         <a href="https://github.com/mila-mamat" target="_blank" >
           <img class="contact-icon" src="https://img.icons8.com/material-rounded/192/000000/github.png">
@@ -49,35 +50,34 @@
       </form>
     </div>
   </nav>
-     
-    
-     
-  
+       
 <!-- main content  -->
 <main >
-
-  <div class="container" >
-    <div class="row">
-      <h2> &lt;About me &gt;</h2>
-      <div class="col-lg-6 col-sm-5 h-100 media" id="first-col">
+  <!-- first page -->
+  <div class="container">
+    <h2 class="right"> &lt;About me &gt;</h2> 
+    <div class="row media">
+      <!-- picture on the left side  -->
+      <div class="col-lg-6 col-sm-5 h-100 media align-self-center" id="first-col">
         <div class="row h-75 align-self-center">
-          <div class="col-lg-6 col-md-12 h-100 media" id="firstdiv-firstpic">
-            <img class="img-fluid rounded  align-self-center img-thumbnail yellow tall" src="../pics/IMG_2318.JPG">
+          <!-- big picture on the left  -->
+          <div class="h-100 col-lg-6 col-md-12 media" id="firstdiv-firstpic">
+            <img class="img-fluid rounded  align-self-center img-thumbnail navy tall" src="../pics/IMG_2318.JPG">
           </div>
-
-          <div class="col-lg-6 col-md-0 h-100" id ="second-col">
+          <!-- small two pics on the right, will be hidden in small screens  -->
+          <div class="col-lg-6 col-md-0 h-100 align-self-center" id ="second-col">
             <div class="row h-50">
               <img class="img-fluid rounded h-75 my-auto img-thumbnail red" src="../pics/7587767824_IMG_5810.JPG">
             </div>
             <div class="row h-50">
-              <img class="img-fluid rounded h-75 my-auto img-thumbnail navy" src="../pics/IMG_2810.JPG">
+              <img class="img-fluid rounded h-75 my-auto img-thumbnail red" src="../pics/IMG_2810.JPG">
             </div>
           </div>
         </div>
       </div>
 
-
-      <div class="col-lg-6 col-sm-7 h-100 media jumbotron">
+      <!-- self intro on the right -->
+      <div class="col-lg-6 col-sm-7 h-100 media align-self-center jumbotron">
         <div class="align-self-center">
           <p  class="text">I am a highly motivated <img class="intext-icon" src="https://img.icons8.com/color/48/000000/html-5.png"> full stack web developer, who deeply cares about details and quality. 
             I'm currently enrolled in Carleton University Coding Boot Camp, in <img class="intext-icon"src="https://img.icons8.com/offices/30/000000/place-marker.png">   Ottawa. 
@@ -87,17 +87,110 @@
           </p>
         </div>
       </div>
-
-
     </div>
   </div>
 
+  <!-- second page  -->
+  <div class="container" id="second-container" >   
+    <h2 class="left"> &lt;Education &gt;</h2> 
+    <!-- three logos with hover effect  -->
+    <div class="row media justify-content-center">
+      <!-- first logo  -->
+      <div class="col-md-4 col-sm-6 h-75 align-self-center justify-content-center media" >
+        <div class="row h-75 w-100 align-self-center justify-content-center logo-container">
+            <img class="img-fluid rounded  justify-content-center align-self-center img-thumbnail logo" src="../pics/sisu-logo.png">
+            <div class="overlay media">
+              <div class="text hidden-text align-self-center pre"> 
+                <b>Shanghai International Studies University </b><br>
+                Sept.2010 – Jun.2014
+                <ul>
+                  <li>B.B.A. in Business Administration. GPA: 84.3/100</li>
+                  <li>  Second major in English. GPA: 80.2/100</li>
+                </ul>
+                <b>Coursework: </b>Organizational Behavior, CI Strategy, Performance
+                Management, Public Relations, Accounting, Corporate Finance, Microeconomics, Macroeconomics.
+              </div>
+            </div>
+        </div>
+      </div>
+      <!-- second logo  -->
+      <div class="col-md-4 col-sm-6 h-75 align-self-center justify-content-center media" >
+        <div class="row h-75 w-100 align-self-center justify-content-center logo-container">
+            <img class="img-fluid rounded  justify-content-center align-self-center img-thumbnail logo " src="../pics/uwindsor-logo.jpg">
+            <div class="overlay media">
+              <div class="text hidden-text align-self-center pre"> 
+                <b>University of Windsor </b> <br>
+                Sept.2014 – Jun.2016
+                <ul>
+                  <li>M.O.M. in Human Resources Management. GPA: 87.3/100</li>
+                </ul>
+                <b>Graduate Coursework: </b>Managing Employees, Marketing, Human Resources Management, Leadership
+                and Organizational Change, Business Strategy, International Business.
+              </div>
+            </div>
+        </div>
+      </div>
+      <!-- third logo  -->
+      <div class="col-md-4 col-sm-6 h-75 align-self-center justify-content-center media" >
+        <div class="row h-75 w-100 align-self-center justify-content-center  logo-container">
+            <img class="img-fluid rounded  align-self-center justify-content-center  img-thumbnail logo" src="../pics/ucarleton-logo.png">
+            <div class="overlay media">
+              <div class="text hidden-text align-self-center"> Carleton University Coding Bootcamp<br>
+                Lorem ipsum dolor sit amet cmolestias sunt facere similique 
+                deleniti officiis et, consequuntur labore porro enim, illum explicabo? <br>
+                id et praesentium rem. Quisquam tempora qui veritatis praesentium similique quis, tempore nobis vel atque assumenda!
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
 
-
-
-
+  <!-- third page  -->
+  <div class="container" id="third-container" >
+    <h2 class="right"> &lt;Skills and Achievments &gt;</h2> 
+    <div class="row media justify-content-center">
+      <!-- intro on the left  -->
+      <div class="col-sm-6 h-75 align-self-center media" > 
+        <div class="h-100 w-75 align-self-center justify-content-center">
+          <img class="mg-fluid rounded  img-thumbnail navy w-75" src="../pics/skills-3371153_1280.jpg"> 
+          <br>
+          <h5> &lt;LANGUAGES AND SKILLS &gt;</h5>
+          <div>
+            <ul>
+              <li>English, Mandarin Chinese, and Uyghur</li>
+              <li>Proficient with Microsoft Office, Prezi, Photoshop</li>
+              <li>Familiar with ATS, ADP</li>
+              <li>BC Employment Standards Act, Human Rights Code</li>
+            </ul> 
+          </div>
+        </div>
+      </div>
+      <!-- intro on the right  -->
+      <div class="col-sm-6 h-75 align-self-center justify-content-center media" >
+        <div class="h-100 w-75 align-self-center justify-content-center">
+          <br> 
+          <img class="float-left mg-fluid rounded  img-thumbnail navy w-75" src="../pics/graduation-1449488_960_720.jpg"> 
+          <h5> &lt; ACHIEVEMENTS AND REWARDS &gt;</h5>
+          <div>
+            <ul>
+              <li>CHRP -ON: Obtained February, 2017</li>
+              <li>Dean’s Honor Roll (2015), University of Windsor </li>
+              <li>First-Grade Scholarship (2011 – 2013), Shanghai International Studies University.</li>
+              <li>Director of Study Department, the Student Union (2014), Shanghai International Studies University</li>
+            </ul> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </main>
 
+<footer>
+  <!-- sticky button on the bottom -->
+    <button class="btn fixed-bottom " id="back--to-top"> <a href="#menu-icon"> Back to the Top</a>
+    </button>
+</footer>
 
 </body>
 </html>

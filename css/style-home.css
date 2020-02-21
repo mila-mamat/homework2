@@ -15,7 +15,6 @@
     width:100%;
     background-color:white;  /* overlay with the background img */
     color:#28334AFF;
-   
   }
 
   /* background img should take up the whole window  */
@@ -38,13 +37,6 @@
     font-weight: bold;
     background-color: transparent!important;
   }
-
-
- 
-
-
-
-
   .navbar-brand{
       padding:0px
   }
@@ -97,7 +89,6 @@
       display:none;
     }
   
-
     .navbar-brand img {
       width:50px;
       height:40px;
@@ -108,7 +99,6 @@
     }
   }
 
-  
 /* end of navbar style  */
 
 
@@ -185,10 +175,3 @@
     }
 /* end of main content style  */
   
-
-/* footer: background img attibution */
-  footer{
-    position:absolute;
-    bottom:5px;
-    right:5px;
-  }
