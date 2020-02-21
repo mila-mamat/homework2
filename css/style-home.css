@@ -43,18 +43,6 @@
  
 
 
-  /* would like to add hover effect, but cant remove it for small screen */
-  #navbarTogglerDemo03 {
-    display:none !important;
-  }
-
-  .navbar:hover #navbarTogglerDemo03 {
-    display:flex !important;
-  }
-
-
-
-
 
 
   .navbar-brand{
@@ -109,9 +97,6 @@
       display:none;
     }
   
-    #navbarTogglerDemo03 {
-      pointer-events: none !important;
-    }
 
     .navbar-brand img {
       width:50px;
@@ -122,6 +107,8 @@
 
     }
   }
+
+  
 /* end of navbar style  */
 
 
