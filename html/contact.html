@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contact Me</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- bootstrap and google font -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/ulg/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/style-contact.css'>
+</head>
+
+<body>
+  <!-- navigation bar -->
+  <nav class="navbar sticky-top navbar-expand-md navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">
+    </button>
+    <a class="navbar-brand" href="#"><img class="icon" id="menu-icon" src="../pics/html-coding-5.png" alt="Icons made by <a href='https://www.flaticon.com/authors/freepik' title='Freepik'>Freepik</a> from <a href='https://www.flaticon.com/'  "></a>
+    <!-- naviagtion menu, will collapse into toggeler in small screen  -->
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="https://mila-mamat.github.io/homework2/html/index.html">Home Page</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="https://mila-mamat.github.io/homework2/html/portfolio.html">Protfolio </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="https://mila-mamat.github.io/homework2/html/contact.html">Contact Me <span class="sr-only">(current)</a>
+        </li>
+      </ul>
+      <!-- contact icons on the right, hidden in small screens  -->
+      <form id="contact-icon" class="form-inline my-2 my-lg-0">
+        <a href="https://github.com/mila-mamat" target="_blank" >
+          <img class="contact-icon" src="https://img.icons8.com/material-rounded/192/000000/github.png">
+        </a>
+        <a href="https://www.linkedin.com/in/mila-mamat-a7a344115/" target="_blank" >
+            <img class="contact-icon" src="https://img.icons8.com/color/144/000000/linkedin.png">
+        </a>
+        <a href="mailto:mila.windsor@gmail.com"> 
+          <img class="contact-icon"  src="https://img.icons8.com/color/144/000000/gmail.png">
+         </a>
+      </form>
+    </div>
+  </nav>
+       
+<!-- main content  -->
+<main >
+  <div class="container mb-4">
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact me</h2>
+    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly.</p>
+    <div class="row"> 
+      <div class="col-md-8 mb-md-0 mb-5 mx-auto">
+        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="md-form mb-0">
+                <input type="text" id="name" name="name" class="form-control">
+                <label for="name" class="">Your name</label>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="md-form mb-0">
+                <input type="text" id="email" name="email" class="form-control">
+                <label for="email" class="">Your email</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+              <div class="md-form mb-0">
+                <input type="text" id="subject" name="subject" class="form-control">
+                <label for="subject" class="">Subject</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+              <div class="md-form">
+                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                <label for="message">Your message</label>
+              </div>
+            </div>
+          </div>
+        </form>
+
+        <div class="text-center text-md-left">
+          <button type="submit" class="btn btn-primary" onclick="submissin();"> Send </button>
+        </div>
+        <div id ="status" class="alert alert-success" role="alert"></div>
+  </div>
+
+<script>
+let message = document.getElementById('contact-form');
+let status = document.getElementById('status');
+function submissin(){
+  // message.submit();
+  status.innerHTML = " Mesage is send successfully. I will contact you back as soon as possible" 
+}
+
+</script>
+
+
+</main>
+
+</body>
+</html>

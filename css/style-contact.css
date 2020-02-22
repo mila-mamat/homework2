@@ -1,0 +1,104 @@
+/* general settings */
+*, ::after, ::before {
+    box-sizing: border-box;
+  }
+
+  html {
+    margin:0px;
+    zoom: 1;
+  }
+
+  body {
+    color:#28334AFF;
+    background:white;
+    background-image: url("../pics/imageedit_2_9882116622.png");
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+  }
+  .container-fluid{
+    padding:0px;
+  }
+
+  .main {
+    font-family: 'Sriracha', cursive,Times, 'Times New Roman', serif;
+  }
+
+ 
+/* start of  navigation bar  */
+  .navbar {
+      padding: 5px 45px;
+      font-weight: bold;
+      background-color:white !important;
+  }
+
+  .navbar-brand{
+      padding:0px
+  }
+
+  .navbar-brand img {
+      width:60px;
+      height:50px;
+  }
+
+  #contact-icon {
+    margin:0px !important;
+    padding:0px;
+  }
+
+  .navbar-light .navbar-toggler-icon {
+    background-image: url("../pics/html-coding-5.png");
+    padding:0px;
+    font-size: 1.5rem;
+}
+
+  .navbar-light .navbar-toggler {
+      border:none;
+      padding:0px;
+  }
+
+  .nav-link {
+      padding:8px 15px;
+  }
+
+  #navbarTogglerDemo03 ul{
+    margin-top:0 !important;
+  }
+
+  .navbar-nav .nav-link:hover{
+    color:#D44638 !important;
+  }
+
+  .contact-icon {
+    margin-top:10px;
+    margin-left:10px;
+    height:32px;
+    width:32px;
+    float:right !important;
+  }
+
+    /* brand img and contact icon will be hidden in small screen and  */
+    @media screen and (max-width:767px) {
+        #contact-icon {
+          display:none;
+        }
+      .navbar-brand img {
+        display:none
+
+      }
+    }
+/* end of navigation bar  */
+
+#status {
+  margin-top:1rem;
+  background-color:transparent;
+  border:none;
+}
+
+
+
+
+
+
+
+
+
