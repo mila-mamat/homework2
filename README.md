@@ -15,7 +15,7 @@
 ## Main direction of design
 **Pick a theme, and keep it consistent throughout the webpages**
 * Choose a theme: My theme is light, informal, and simple.  
-* Color: pick 2 or 3 colrs that matchs, and keep it consistent. I used yellow( background color), red (matchs with gmail icon), and navy
+* Color: pick 2 or 3 colrs that matchs, and keep it consistent. I used yellow, red, and navy
 ![color theme](https://github.com/mila-mamat/homework2/blob/master/pics/color.JPG)
 * pick an icon or symbol (like company logo). I used code symbol </>,  < >
 
