@@ -1,296 +1,296 @@
 /* general settings */
-*, ::after, ::before {
-    box-sizing: border-box;
-  }
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
 
-  html {
-    margin:0px;
-    zoom: 1;
-  }
+html {
+  margin: 0px;
+  zoom: 1;
+}
 
-  body {
-    color:#28334AFF;
-    background-color:#f8fcfd;
+body {
+  color: #28334AFF;
+  background-color: #f8fcfd;
 
-  }
-  .container-fluid{
-    padding:0px;
-  }
+}
 
-  .row {
-    font-family: 'Sriracha', cursive,Times, 'Times New Roman', serif;
-    margin:0px !important;
-  }
+.container-fluid {
+  padding: 0px;
+}
 
-  .float-left {
-    float:right
-  }
+.row {
+  font-family: 'Sriracha', cursive, Times, 'Times New Roman', serif;
+  margin: 0px !important;
+}
+
+.float-left {
+  float: right
+}
 
 
 /* start of  navigation bar  */
-  .navbar {
-      padding: 5px 45px;
-      font-weight: bold;
-      background-color:#8ABAD3FF!important;
-      color:white !important
-  }
+.navbar {
+  padding: 5px 45px;
+  font-weight: bold;
+  background-color: #8ABAD3FF !important;
+  color: white !important
+}
 
-  .navbar-brand{
-      padding:0px
+.navbar-brand {
+  padding: 0px
+}
+
+.navbar-brand img {
+  width: 60px;
+  height: 50px;
+}
+
+#contact-icon {
+  margin: 0px !important;
+  padding: 0px;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("../pics/html-coding-5.png");
+  padding: 0px;
+  font-size: 1.5rem;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+  padding: 0px;
+}
+
+.nav-link {
+  padding: 8px 15px;
+}
+
+#navbarTogglerDemo03 ul {
+  margin-top: 0 !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: white !important;
+}
+
+.contact-icon {
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 32px;
+  width: 32px;
+  float: right !important;
+}
+
+/* brand img and contact icon will be hidden in small screen and  */
+@media screen and (max-width:767px) {
+  #contact-icon {
+    display: none;
   }
 
   .navbar-brand img {
-      width:60px;
-      height:50px;
+    display: none
   }
-
-  #contact-icon {
-    margin:0px !important;
-    padding:0px;
-  }
-
-  .navbar-light .navbar-toggler-icon {
-    background-image: url("../pics/html-coding-5.png");
-    padding:0px;
-    font-size: 1.5rem;
 }
 
-  .navbar-light .navbar-toggler {
-      border:none;
-      padding:0px;
-  }
-
-  .nav-link {
-      padding:8px 15px;
-  }
-
-  #navbarTogglerDemo03 ul{
-    margin-top:0 !important;
-  }
-
-  .navbar-nav .nav-link:hover{
-    color:white !important;
-  }
-
-  .contact-icon {
-    margin-top:10px;
-    margin-left:10px;
-    height:32px;
-    width:32px;
-    float:right !important;
-  }
-
-    /* brand img and contact icon will be hidden in small screen and  */
-    @media screen and (max-width:767px) {
-        #contact-icon {
-          display:none;
-        }
-      .navbar-brand img {
-        display:none
-
-      }
-    }
 /* end of navigation bar  */
 
 /* start of main content */
-  .container {
-    max-width:90% !important;
-    height:auto;
-    position:relative;
+.container {
+  max-width: 90% !important;
+  height: auto;
+  position: relative;
+}
+
+/* setting each page height roughly equal to window size */
+.container>.row {
+  margin: 10vh;
+  height: 90vh;
+  min-height: 550px !important;
+}
+
+/* header style  */
+h2 {
+  font-size: 2rem;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  position: absolute;
+  color: black;
+}
+
+h2.left {
+  top: 10px;
+  left: 10%;
+}
+
+h2.right {
+  top: 10px;
+  right: 10%;
+}
+
+/* start of first page style */
+/* first page img style  */
+.img-container {
+  padding: 5px 15px;
+}
+
+.img-fluid {
+  width: 100%;
+  margin: 10px auto;
+}
+
+.img-fluid.logo {
+  height: 100%;
+  margin: 0px;
+}
+
+.img-fluid.tall {
+  min-height: 290px;
+  max-height: 550px;
+}
+
+.img-thumbnail.rounded {
+  border-radius: 0.5rem !important;
+}
+
+.img-thumbnail.yellow {
+  background-color: #fbde44ff !important;
+}
+
+.img-thumbnail.navy {
+  background-color: #28334aff !important;
+}
+
+.img-thumbnail.red {
+  background-color: #f65058ff !important;
+}
+
+#firstdiv-firstpic {
+  padding: 0px;
+}
+
+/* pictures on the right will be hidden in small screens  */
+@media screen and (max-width:991px) {
+  #second-col {
+    display: none !important;
   }
-  
-  /* setting each page height roughly equal to window size */
-  .container > .row{
-    margin:10vh;
-    height:90vh;
-    min-height:550px !important;
-  }
+}
 
-  /* header style  */
-    h2 {
-      font-size: 2rem;
-      margin-top:0px;
-      margin-bottom:25px;
-      position: absolute;
-      color: black;
-    }
-    
-    h2.left {
-      top:10px;
-      left:10%;
-    }
-    
-    h2.right{
-      top:10px;
-      right:10%;
-    }
+/* style for text  */
+.jumbotron {
+  padding-top: 2rem !important;
+  background-color: transparent;
+  padding-bottom: 2rem !important;
+}
 
-  /* start of first page style */
-    /* first page img style  */
-      .img-container {
-        padding:5px 15px;
-      }
+.intext-icon {
+  width: 1.2em;
+  height: 1.2em;
+}
 
-      .img-fluid {
-        width:100%;
-        margin:10px auto;
-      }
+.text {
+  text-align: justify;
+  font-size: 1.1em;
+}
 
-      .img-fluid.logo{
-        height:100%;
-        margin:0px;
-      }
-
-      .img-fluid.tall {
-          min-height:290px;
-        max-height:550px;
-      }
-
-      .img-thumbnail.rounded {
-        border-radius: 0.5rem !important;
-      } 
-      
-      .img-thumbnail.yellow{
-      background-color: #fbde44ff !important;
-      }
-
-      .img-thumbnail.navy{
-        background-color: #28334aff !important;
-      }
-
-      .img-thumbnail.red{
-        background-color: #f65058ff !important;
-      }
-
-      #firstdiv-firstpic {
-        padding:0px;
-      }
-      
-      /* pictures on the right will be hidden in small screens  */
-      @media screen and (max-width:991px) {
-        #second-col{
-          display:none !important;
-        }
-      }
-
-    /* style for text  */
-      .jumbotron {
-        padding-top:2rem !important;
-        background-color:transparent;
-        padding-bottom:2rem !important;
-      }
-
-      .intext-icon {
-          width:1.2em;
-          height:1.2em;
-      }
-
-      .text {
-        text-align: justify;
-        font-size:1.1em;
-      }
-
-      /* resize texts in smaller screen  */
-      @media screen and (max-width:767px) {
-        .jumbotron {
-          margin:0;
-          padding: 5% !important;
-        }
-        
-        .text {
-          font-size:1rem;
-        }
-      }
-
-      /* resizing overall layout for small screen  */
-      @media screen and (max-width:575px) {
-        .container div{
-          margin:5px auto !important;
-          padding:5px 0px !important;
-          height:auto !important
-        }
-
-        .img-fluid {
-          width:80%;
-          height:80% ;
-        }
-      }
-  /* enf of first page style  */
-   
-  /* start of second page style  */
-    /* style for logos in  */
-      .logo-container {
-        position:relative;
-      }
-
-      .overlay {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 100%;
-        width: 100%;
-        opacity: 0;
-        transition: .5s ease;
-        background-color: #28334aff ;
-        padding:10px;
-      }
-
-      .logo-container:hover .overlay {
-        opacity: 0.9;
-      }
-
-      .hidden-text {
-        color:#fbde44ff ;
-        position:relative;
-        font-size: 1rem;
-        padding:1rem;
-        text-align: left;
-      }
-      /* logo's hover effect will be removed for small screen  */
-        @media screen and (max-width:575px) {
-          .overlay {
-            opacity:1;
-            background-color: transparent;
-          }
-          .overlay .hidden-text{
-            
-            color:#28334aff !important
-          }
-
-          
-          .img-fluid.logo{
-            opacity:0.1!important;
-
-          }
-
-          #third-container h2 {
-            top:-50px !important;
-          }
-        }
-  /* end of second page style  */
-
-  /* third paged used only bootstrap and general style set on the top  */
-
-  #third-container img{
-    max-width:700px;
-    max-height:400px;
+/* resize texts in smaller screen  */
+@media screen and (max-width:767px) {
+  .jumbotron {
+    margin: 0;
+    padding: 5% !important;
   }
 
-  #third-container span {
-    color:black!important;
-    font-weight: bold;
+  .text {
+    font-size: 1rem;
+  }
+}
+
+/* resizing overall layout for small screen  */
+@media screen and (max-width:575px) {
+  .container div {
+    margin: 5px auto !important;
+    padding: 5px 0px !important;
+    height: auto !important
   }
 
-  .carousel-control-prev-icon {
-    color:#28334aff !important
+  .img-fluid {
+    width: 80%;
+    height: 80%;
+  }
+}
+
+/* enf of first page style  */
+
+/* start of second page style  */
+/* style for logos in  */
+.logo-container {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #28334aff;
+  padding: 10px;
+}
+
+.logo-container:hover .overlay {
+  opacity: 0.9;
+}
+
+.hidden-text {
+  color: #fbde44ff;
+  position: relative;
+  font-size: 1rem;
+  padding: 1rem;
+  text-align: left;
+}
+
+/* logo's hover effect will be removed for small screen  */
+@media screen and (max-width:575px) {
+  .overlay {
+    opacity: 1;
+    background-color: transparent;
+  }
+
+  .overlay .hidden-text {
+
+    color: #28334aff !important
   }
 
 
+  .img-fluid.logo {
+    opacity: 0.1 !important;
 
+  }
 
+  #third-container h2 {
+    top: -50px !important;
+  }
+}
 
+/* end of second page style  */
 
+/* third paged used only bootstrap and general style set on the top  */
 
+#third-container img {
+  max-width: 700px;
+  max-height: 400px;
+}
 
+#third-container span {
+  color: black !important;
+  font-weight: bold;
+}
+
+.carousel-control-prev-icon {
+  color: #28334aff !important
+}
