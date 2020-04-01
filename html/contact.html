@@ -54,7 +54,13 @@
 <main >
   <div class="container mb-4">
     <h2 class="h1-responsive font-weight-bold text-center my-4">Contact me</h2>
-    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly.</p>
+    <p class="text-center w-responsive mx-auto">Do you have any questions? Please do not hesitate to contact me directly.
+      <ul class="text-center w-responsive mb-5">
+        <li><b>Email Address: </b><a href="mailto:mila.windsor@gmail.com">mila.windsor@gmail.com</a></li>
+        <li><b>Phone Number: </b> <a href="tel:6047256771 ">6047256771</a></li>
+      </ul>
+    </p>
+   
     <div class="row"> 
       <div class="col-md-8 mb-md-0 mb-5 mx-auto">
         <form id="contact-form" name="contact-form" action="mail.php" method="POST">
@@ -93,7 +99,7 @@
           </div>
         </form>
 
-        <div class="text-center text-md-left">
+        <div class="text-center text-md-left mt-3">
           <button type="submit" class="btn btn-primary" onclick="submissin();"> Send </button>
         </div>
         <div id ="status" class="alert alert-success" role="alert"></div>
