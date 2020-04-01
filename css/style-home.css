@@ -13,16 +13,8 @@
   body {
     height:100%;
     width:100%;
-    background-color:white;  /* overlay with the background img */
+    background-color:#f8fcfd; 
     color:#28334AFF;
-  }
-
-  /* background img should take up the whole window  */
-  #background-img {
-    height:100%;
-    width:100%;
-    opacity:0.2;
-    position:absolute;
   }
 
   .container-fluid{
@@ -35,7 +27,7 @@
   .navbar {
     padding: 5px 45px;
     font-weight: bold;
-    background-color: transparent!important;
+    background-color: #8ABAD3FF!important;
   }
   .navbar-brand{
       padding:0px
@@ -71,7 +63,7 @@
   }
 
   .navbar-nav .nav-link:hover{
-    color:#D44638 !important;
+    color:white!important;
   }
 
   .contact-icon {
@@ -130,8 +122,8 @@
   }
 
   #intro {
-    margin:15px 15%;
-    font-size: 0.8em;
+    margin:15px 0px;
+    font-size: 1em;
     font-weight: lighter;
     font-family: 'Sriracha', cursive,Times, 'Times New Roman', serif;
   }

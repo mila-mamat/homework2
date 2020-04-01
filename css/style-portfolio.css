@@ -10,10 +10,10 @@
 
   body {
     color:#28334AFF;
-    background:white;
-    background-image: url("../pics/imageedit_2_9882116622.png");
+    background-color:#f8fcfd;
+    /* background-image: url("../pics/imageedit_2_9882116622.png");
     background-size: 100% auto;
-    background-repeat: repeat-y;
+    background-repeat: repeat-y; */
   }
   .container-fluid{
     padding:0px;
@@ -33,7 +33,8 @@
   .navbar {
       padding: 5px 45px;
       font-weight: bold;
-      background-color:white !important;
+      background-color:#8ABAD3FF!important;
+      color:white !important
   }
 
   .navbar-brand{
@@ -70,7 +71,7 @@
   }
 
   .navbar-nav .nav-link:hover{
-    color:#D44638 !important;
+    color:white !important;
   }
 
   .contact-icon {
@@ -113,7 +114,7 @@
       margin-top:0px;
       margin-bottom:25px;
       position: absolute;
-      color: #D44638;
+      color: black;
     }
     
     h2.left {
@@ -188,7 +189,7 @@
 
       .text {
         text-align: justify;
-        font-size:1.2rem;
+        font-size:1rem;
       }
 
       /* resize texts in smaller screen  */
@@ -274,6 +275,19 @@
 
   /* third paged used only bootstrap and general style set on the top  */
 
+  #third-container img{
+    max-width:700px;
+    max-height:400px;
+  }
+
+  #third-container span {
+    color:black!important;
+    font-weight: bold;
+  }
+
+  .carousel-control-prev-icon {
+    color:#28334aff !important
+  }
 
 
 

@@ -1,196 +1,224 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Portfolio</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <!-- bootstrap and google font -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/ulg/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-    <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="stylesheet">
-    <link rel='stylesheet' type='text/css' media='screen' href='../css/style-portfolio.css'>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Portfolio</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <!-- bootstrap and google font -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/ulg/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="stylesheet">
+  <link rel='stylesheet' type='text/css' media='screen' href='../css/style-portfolio.css'>
 </head>
 
 <body>
   <!-- navigation bar -->
   <nav class="navbar sticky-top navbar-expand-md navbar-light bg-light">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+      aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon">
     </button>
-    <a class="navbar-brand" href="#"><img class="icon" id="menu-icon" src="../pics/html-coding-5.png" alt="Icons made by <a href='https://www.flaticon.com/authors/freepik' title='Freepik'>Freepik</a> from <a href='https://www.flaticon.com/'  "></a>
+    <a class="navbar-brand" href="#"><img class="icon" id="menu-icon" src="../pics/html-coding-5.png"
+        alt="Icons made by <a href='https://www.flaticon.com/authors/freepik' title='Freepik'>Freepik</a> from <a href='https://www.flaticon.com/'  "></a>
     <!-- naviagtion menu, will collapse into toggeler in small screen  -->
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="https://mila-mamat.github.io/homework2/html/index.html">Home Page</a>
+          <a class="nav-link" href="https://mila-mamat.github.io/homework2-responsive-layout/html/index.html">Home
+            Page</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="https://mila-mamat.github.io/homework2/html/portfolio.html">Protfolio <span class="sr-only">(current)</a>
+          <a class="nav-link"
+            href="https://mila-mamat.github.io/homework2-responsive-layout/html/portfolio.html">Protfolio <span
+              class="sr-only">(current)</a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link" href="https://mila-mamat.github.io/homework2/html/contact.html">Contact Me</a>
+          <a class="nav-link" href="https://mila-mamat.github.io/homework2-responsive-layout/html/contact.html">Contact
+            Me</a>
         </li>
       </ul>
       <!-- contact icons on the right, hidden in small screens  -->
       <form id="contact-icon" class="form-inline my-2 my-lg-0">
-        <a href="https://github.com/mila-mamat" target="_blank" >
+        <a href="https://github.com/mila-mamat" target="_blank">
           <img class="contact-icon" src="https://img.icons8.com/material-rounded/192/000000/github.png">
         </a>
-    
-        <a href="https://www.linkedin.com/in/mila-mamat-a7a344115/" target="_blank" >
-            <img class="contact-icon" src="https://img.icons8.com/color/144/000000/linkedin.png">
+
+        <a href="https://www.linkedin.com/in/mila-mamat-a7a344115/" target="_blank">
+          <img class="contact-icon" src="https://img.icons8.com/color/144/000000/linkedin.png">
         </a>
-        <a href="mailto:mila.windsor@gmail.com"> 
-          <img class="contact-icon"  src="https://img.icons8.com/color/144/000000/gmail.png">
-         </a>
+        <a href="mailto:mila.windsor@gmail.com">
+          <img class="contact-icon" src="https://img.icons8.com/color/144/000000/gmail.png">
+        </a>
       </form>
     </div>
   </nav>
-       
-<!-- main content  -->
-<main >
-  <!-- first page -->
-  <div class="container">
-    <h2 class="right"> &lt;About me &gt;</h2> 
-    <div class="row media">
-      <!-- picture on the left side  -->
-      <div class="col-lg-6 col-sm-5 h-100 media align-self-center" id="first-col">
-        <div class="row h-75 align-self-center">
-          <!-- big picture on the left  -->
-          <div class="h-100 col-lg-6 col-md-12 media" id="firstdiv-firstpic">
-            <img class="img-fluid rounded  align-self-center img-thumbnail navy tall" src="../pics/IMG_2318.JPG">
-          </div>
-          <!-- small two pics on the right, will be hidden in small screens  -->
-          <div class="col-lg-6 col-md-0 h-100 align-self-center" id ="second-col">
-            <div class="row h-50">
-              <img class="img-fluid rounded h-75 my-auto img-thumbnail red" src="../pics/7587767824_IMG_5810.JPG">
-            </div>
-            <div class="row h-50">
-              <img class="img-fluid rounded h-75 my-auto img-thumbnail red" src="../pics/IMG_2810.JPG">
+
+  <!-- main content  -->
+  <main>
+    <!-- first page -->
+    <div class="container">
+      <h2 class="right mt-3"> &lt;About me &gt;</h2>
+      <div class="row media">
+        <!-- picture on the left side  -->
+        <div class="col-lg-4 col-sm-5 h-100 media align-self-center" id="first-col">
+          <div class="row  align-self-center">
+            <!-- big picture on the left  -->
+            <div class="h-100 media" id="firstdiv-firstpic">
+              <img class="img-fluid rounded  align-self-center img-thumbnail navy tall" src="../pics/IMG_2318.JPG">
             </div>
           </div>
         </div>
-      </div>
 
-      <!-- self intro on the right -->
-      <div class="col-lg-6 col-sm-7 h-100 media align-self-center jumbotron">
-        <div class="align-self-center">
-          <p  class="text">I am a highly motivated <img class="intext-icon" src="https://img.icons8.com/color/48/000000/html-5.png"> full stack web developer, who deeply cares about details and quality. 
-            I'm currently enrolled in Carleton University Coding Boot Camp, in <img class="intext-icon"src="https://img.icons8.com/offices/30/000000/place-marker.png">   Ottawa. 
-            <br> <br> Fun fact, I have a profound education background in <img class="intext-icon" src="https://img.icons8.com/dusk/64/000000/diploma.png"> Business Managemnt, 
-            self-studied and taught <img class="intext-icon" src="https://img.icons8.com/doodle/96/000000/positive-dynamic--v1.png"> 
-              Statistics for 3 years. <br> <br>A little bit more about me: I like reading, puzzle solving, traveling, and camping in my spare time, and I am a cat person,  meow ~~~ 
-          </p>
+        <!-- self intro on the right -->
+        <div class="col-lg-8 col-sm-7 h-100 media align-self-center jumbotron mt-5">
+          <div class="align-self-center">
+            <p class="text">A self-motivated web developer with profound knowledge of HTML, CSS, Java, JavaScript, JSON,
+              AJAX, MySQL and other related systems.
+              <br>
+              <br>
+              Self-learned and taught statistics for three years, and helped more than 1000 students with their academic
+              success through my strong organizational, curriculum design, and communication skills.
+              <br>
+              <br>
+
+              Enlightened by R while teaching, found my true passion: coding and solving analytically complex problems.
+              Enjoy the process of finding problems, breaking into steps, setting goals, finding answers and pushing my
+              limits. Recently earned a certificate in Full Stack Development to find an entry-level programmer position
+              with opportunities for career growth in the long-term.
+
+              <br>
+              <br>
+              Brings a keen eye for details, strong ability of critical thinking, and willingness to learn and thrive to
+              a team.
+
+              <br><br>A little bit more about me: I like reading, puzzle solving, traveling, and camping in my spare
+              time, and I am a cat person, meow ~~~
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- second page  -->
-  <div class="container" id="second-container" >   
-    <h2 class="left"> &lt;Education &gt;</h2> 
-    <!-- three logos with hover effect  -->
-    <div class="row media justify-content-center">
-      <!-- first logo  -->
-      <div class="col-md-4 col-sm-6 h-75 align-self-center justify-content-center media" >
-        <div class="row h-75 w-100 align-self-center justify-content-center logo-container">
-            <img class="img-fluid rounded  justify-content-center align-self-center img-thumbnail logo" src="../pics/sisu-logo.png">
+    <!-- second page  -->
+    <div class="container" id="second-container">
+      <h2 class="left mt-3"> &lt;Education &gt;</h2>
+      <!-- three logos with hover effect  -->
+      <div class="row media justify-content-center">
+        <!-- first logo  -->
+        <div class="col-md-4 col-sm-6 h-75 align-self-center justify-content-center media">
+          <div class="row h-75 w-100 align-self-center justify-content-center logo-container">
+            <img class="img-fluid rounded  justify-content-center align-self-center img-thumbnail logo"
+              src="../pics/sisu-logo.png">
             <div class="overlay media">
-              <div class="text hidden-text align-self-center pre"> 
+              <div class="text hidden-text align-self-center pre">
                 <b>Shanghai International Studies University </b><br>
                 Sept.2010 – Jun.2014
                 <ul>
                   <li>B.B.A. in Business Administration. GPA: 84.3/100</li>
-                  <li>  Second major in English. GPA: 80.2/100</li>
+                  <li> Second major in English. GPA: 80.2/100</li>
                 </ul>
-                <b>Coursework: </b>Organizational Behavior, CI Strategy, Performance
-                Management, Public Relations, Accounting, Corporate Finance, Microeconomics, Macroeconomics.
               </div>
             </div>
+          </div>
         </div>
-      </div>
-      <!-- second logo  -->
-      <div class="col-md-4 col-sm-6 h-75 align-self-center justify-content-center media" >
-        <div class="row h-75 w-100 align-self-center justify-content-center logo-container">
-            <img class="img-fluid rounded  justify-content-center align-self-center img-thumbnail logo " src="../pics/uwindsor-logo.jpg">
+        <!-- second logo  -->
+        <div class="col-md-4 col-sm-6 h-75 align-self-center justify-content-center media">
+          <div class="row h-75 w-100 align-self-center justify-content-center logo-container">
+            <img class="img-fluid rounded  justify-content-center align-self-center img-thumbnail logo "
+              src="../pics/uwindsor-logo.jpg">
             <div class="overlay media">
-              <div class="text hidden-text align-self-center pre"> 
+              <div class="text hidden-text align-self-center pre">
                 <b>University of Windsor </b> <br>
                 Sept.2014 – Jun.2016
                 <ul>
                   <li>M.O.M. in Human Resources Management. GPA: 87.3/100</li>
                 </ul>
-                <b>Graduate Coursework: </b>Managing Employees, Marketing, Human Resources Management, Leadership
-                and Organizational Change, Business Strategy, International Business.
               </div>
             </div>
+          </div>
         </div>
-      </div>
-      <!-- third logo  -->
-      <div class="col-md-4 col-sm-6 h-75 align-self-center justify-content-center media" >
-        <div class="row h-75 w-100 align-self-center justify-content-center  logo-container">
-            <img class="img-fluid rounded  align-self-center justify-content-center  img-thumbnail logo" src="../pics/ucarleton-logo.png">
+        <!-- third logo  -->
+        <div class="col-md-4 col-sm-6 h-75 align-self-center justify-content-center media">
+          <div class="row h-75 w-100 align-self-center justify-content-center  logo-container">
+            <img class="img-fluid rounded  align-self-center justify-content-center  img-thumbnail logo"
+              src="../pics/ucarleton-logo.png">
             <div class="overlay media">
-              <div class="text hidden-text align-self-center"> Carleton University Coding Bootcamp<br>
-                Lorem ipsum dolor sit amet cmolestias sunt facere similique 
-                deleniti officiis et, consequuntur labore porro enim, illum explicabo? <br>
-                id et praesentium rem. Quisquam tempora qui veritatis praesentium similique quis, tempore nobis vel atque assumenda!
+              <div class="text hidden-text align-self-center">
+                <b>Carleton University Coding Bootcamp </b> <br>
+                Feb.2020 – Aug.2020
+                <ul>
+                  <li>Certificate in Full-stack Web Development. Grade: A+</li>
+                </ul>
               </div>
             </div>
           </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- third page  -->
-  <div class="container" id="third-container" >
-    <h2 class="right"> &lt;Skills and Achievments &gt;</h2> 
-    <div class="row media justify-content-center">
-      <!-- intro on the left  -->
-      <div class="col-sm-6 h-75 align-self-center media" > 
-        <div class="h-100 w-75 align-self-center justify-content-center">
-          <img class="mg-fluid rounded  img-thumbnail navy w-75" src="../pics/skills-3371153_1280.jpg"> 
-          <br>
-          <h5> &lt;LANGUAGES AND SKILLS &gt;</h5>
-          <div>
-            <ul>
-              <li>English, Mandarin Chinese, and Uyghur</li>
-              <li>Proficient with Microsoft Office, Prezi, Photoshop</li>
-              <li>Familiar with ATS, ADP</li>
-              <li>BC Employment Standards Act, Human Rights Code</li>
-            </ul> 
-          </div>
-        </div>
-      </div>
-      <!-- intro on the right  -->
-      <div class="col-sm-6 h-75 align-self-center justify-content-center media" >
-        <div class="h-100 w-75 align-self-center justify-content-center">
-          <br> 
-          <img class="float-left mg-fluid rounded  img-thumbnail navy w-75" src="../pics/graduation-1449488_960_720.jpg"> 
-          <h5> &lt; ACHIEVEMENTS AND REWARDS &gt;</h5>
-          <div>
-            <ul>
-              <li>CHRP -ON: Obtained February, 2017</li>
-              <li>Dean’s Honor Roll (2015), University of Windsor </li>
-              <li>First-Grade Scholarship (2011 – 2013), Shanghai International Studies University.</li>
-              <li>Director of Study Department, the Student Union (2014), Shanghai International Studies University</li>
-            </ul> 
-          </div>
         </div>
       </div>
     </div>
-  </div>
-</main>
 
-<footer>
-  <!-- sticky button on the bottom -->
+    <!-- third page  -->
+    <div class="container"  id="third-container"> 
+      <h2 class="right mt-3" > &lt;Projects &gt;</h2>
+      <div class="container">
+        <div class="row media justify-content-center" >
+
+          <div id="carouselExampleCaptions" class="carousel slide h-75 align-self-center mt-5 pt-3" data-ride="carousel"
+            >
+
+
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="https://mila-mamat.github.io/homerwork4-JS-code-quiz/index.html" target="_blank"><img src="../gif/quiz.gif" class="d-block w-100" alt="JS Quiz Game"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="https://mila-mamat.github.io/homework6-weather-dashboard/index.html" target="_blank"><img src="../gif/weather.gif" class="d-block w-100" alt="Weather Forecast"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="https://jlbuster.github.io/JMK-Project/#" target="_blank"><img src="../gif/day-planner.gif" class="d-block w-100" alt="Plan My Day"></a>
+              </div>
+            </div>
+          </div>
+ 
+
+
+        </div>
+        <a class="carousel-control-prev ml-0" href="#carouselExampleCaptions" role="button" data-slide="prev" >
+         
+          <button class="btn btn-light"><span >Previous</span></button>
+        </a>
+        <a class="carousel-control-next mr-0" href="#carouselExampleCaptions" role="button" data-slide="next" >
+         
+          <button class="btn btn-light"><span >Next</span></button>
+        </a>
+      </div>
+    </div>
+
+
+
+  </main>
+
+  <footer>
+    <!-- sticky button on the bottom -->
     <button class="btn fixed-bottom " id="back--to-top"> <a href="#menu-icon"> Back to the Top</a>
     </button>
-</footer>
+  </footer>
 
 </body>
+
 </html>
