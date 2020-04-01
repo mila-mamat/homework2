@@ -11,12 +11,14 @@
    * style-contact.css
 * pics 
 
+## link to the page
+https://mila-mamat.github.io/homework2-responsive-layout/html/index
+
 
 ## Main direction of design
 **Pick a theme, and keep it consistent throughout the webpages**
 * Choose a theme: My theme is light, informal, and simple.  
-* Color: pick 2 or 3 colrs that matchs, and keep it consistent. I used yellow, red, and navy
-![color theme](https://github.com/mila-mamat/homework2/blob/master/pics/color.JPG)
+* Color: pick 2 or 3 colrs that matchs, and keep it consistent. I used blue, yellow, black and white
 * pick an icon or symbol (like company logo). I used code symbol </>,  < >
 
 
@@ -40,6 +42,6 @@ For the first page, I was trying to make the layout piece by piece all by myslef
 From the second page, I started to use bootstrap classes, still got confused by h-75,h-100,and w-50,w-100 (it doesn't response sometimes and I have no clue why!!!!), but effecieny is much higher and my css code looks neater. 
 And for the third page, I checked online bootstrap template, it is AMAZING. 
 
-**Bootstrap rules. It worth some time to read through all the documents and get familer with the classes.**
+
 
    
