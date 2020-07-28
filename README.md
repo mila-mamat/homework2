@@ -1,4 +1,6 @@
 # Homework2: Responsive Portfolio
+## Tools
+Javascripts, CSS
 
 ## Content
 * **html**
@@ -13,6 +15,7 @@
 
 ## link to the page
 https://mila-mamat.github.io/homework2-responsive-layout/html/index
+
 
 
 ## Main direction of design
